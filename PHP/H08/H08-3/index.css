@@ -1,0 +1,85 @@
+body {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+.container {
+    text-align: center;
+}
+
+.header {
+    width:100%;
+    height:124px;
+    margin: 0;
+    margin-bottom: 50px;
+    border-radius: 0;
+    padding: 0;
+}
+
+.formcontainer {
+    text-align: left;
+    width: 70%;
+    margin: 0 auto;
+}
+
+select, input {
+    display: block;
+    width: 100%;
+    height: 35px;
+    margin: 0 auto;
+    border-radius: 5px;
+    outline: 0;
+    padding: 0 5px;
+    border: 1px solid grey;
+}
+
+.submit {
+    width: 200px;
+    margin: 0;
+}
+
+select:focus {
+    box-shadow: 0 0 5px #66AFE9;
+    border: 1px solid #66AFE9;
+}
+
+input:focus {
+    box-shadow: 0 0 5px #66AFE9;
+    border: 1px solid #66AFE9;
+}
+
+.carview {
+    width: 300px;
+    length: 170px;
+    display: inline-block;
+    margin: 30px;
+    position: relative;
+}
+
+.carview img {
+    border-radius: 10px;
+}
+
+.infoview {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    margin: auto 0;
+    padding-left: 10px;
+    background-color: hsla(0, 0%, 100%, 0.6);
+    width: 100%;
+}
+
+.info {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+img {
+    display:inline-block;
+    height:170px;
+    width:300px;
+    margin:20px;
+    border-radius: 10px;
+    padding:0;
+    text-shadow: 1px 1px 8px #ffffff;
+}
